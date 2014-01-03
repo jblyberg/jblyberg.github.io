@@ -1,0 +1,17 @@
+name: jfb.io
+
+markdown: redcarpet
+pygments: true
+timezone: America/New_York
+encoding: UTF-8
+permalink: /:year/:month/:day/:title
+exclude: [".rvmrc", ".rbenv-version", "README.md", "Rakefile", "changelog.md"]
+
+title : The Social OPAC
+tagline: A Social Catalog Application Suite
+
+author :
+  name : John Blyberg
+  email : john@blyberg.net
+  github : jblyberg
+  twitter : jblyberg
