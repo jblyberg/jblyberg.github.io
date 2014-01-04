@@ -1,19 +1,19 @@
 body {
-  color: #F0F8FF;
-  background-color: #424242;
+	color: #F0F8FF;
+	background-color: #424242;
 }
 
 .header-hero {
-  width: 70%;
-  text-align: center;
-  margin:0 auto;
-  margin-top: 30px;
+	width: 70%;
+	text-align: center;
+	margin: 0 auto;
+	margin-top: 30px;
 }
 
 .frontpage-content {
-  width: 55%;
-  margin:0 auto;
-  margin-top: 30px;
+	width: 55%;
+	margin: 0 auto;
+	margin-top: 30px;
 }
 
 .frontpage-content h3 {
@@ -27,8 +27,14 @@ body {
 }
 
 .post {
-  width: 730px;
-  margin: 25px 0px 30px;
+	width: 730px;
+	margin: 25px 0px 30px;
+}
+
+.post h1, .post h2, .post h3, .post h4 {
+	font-family: 'Englebert', sans-serif;
+	margin-bottom: 0;
+	color: #B9C967;
 }
 
 .social-buttons {
@@ -47,20 +53,42 @@ ul#contact-icons li {
 }
 
 ul#contact-icons img {
-
 	margin: 0 10px 0 0px;
 	top: 7px;
 }
 
-pre {
-  background-color: #333;
-  width: 90%;
+.video-container {
+	position: relative;
+	padding-bottom: 56.25%;
+	padding-top: 0px;
+	height: 0;
+	overflow: hidden;
+	margin: 15px 0px 10px;
 }
+
+.video-container iframe, .video-container object, .video-container embed {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
+
+pre {
+	color: #F5E8A3;
+	background-color: #333;
+}
+
 code {
 	padding: 2px 4px;
 	font-size: 90%;
-	color: #fff;
+	color: #F5E8A3;
 	white-space: nowrap;
 	background-color: #333;
 	border-radius: 4px;
+}
+
+video {
+	width: 100%    !important;
+	height: auto   !important;
 }
