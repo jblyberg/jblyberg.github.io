@@ -1,26 +1,17 @@
 ---
 layout: post
-title:  "Welcome to Jekyll!"
-date:   2014-01-03 08:47:32
-categories: jekyll update
+title:  "New Digs"
+date:   2014-01-03 22:00:00
+categories: web
 published: true
-thumbnail: "testing 123"
 ---
 
-You'll find this post in your `_posts` directory - edit this post and re-build (or run with the `-w` switch) to see your changes!
-To add new posts, simply add a file in the `_posts` directory that follows the convention: YYYY-MM-DD-name-of-post.ext.
+This is a stub post. I'm going to come back and elaborate.
 
-Jekyll also offers powerful support for code snippets:
+I've decided that at this point in my life, my [old blog][blyberg-net] will sit on ice and I'm going to write over here. I'm ditching Wordpress for Jekyll and [Github Pages][github-pages].  It's much more in-line with the way I work and there is something very liberating about being able to write in [markdown][redcarpet].  I guess I need the simplicity of the text file and command line in my life right now.  Also, this format allows me to break all the rules and conventions of blogging at my whim, which is very nice indeed.
 
-{% highlight ruby %}
-def print_hi(name)
-  puts "Hi, #{name}"
-end
-print_hi('Tom')
-#=> prints 'Hi, Tom' to STDOUT.
-{% endhighlight %}
+More later.
 
-Check out the [Jekyll docs][jekyll] for more info on how to get the most out of Jekyll. File all bugs/feature requests at [Jekyll's GitHub repo][jekyll-gh].
-
-[jekyll-gh]: https://github.com/mojombo/jekyll
-[jekyll]:    http://jekyllrb.com
+[blyberg-net]: http://www.blyberg.net
+[github-pages]: http://pages.github.com/
+[redcarpet]: https://github.com/vmg/redcarpet

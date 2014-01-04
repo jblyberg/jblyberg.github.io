@@ -13,13 +13,13 @@ title: Your New Jekyll Site
 
 <div class="row frontpage-content">
   <div class="col-md-6">
-  	<h4>Connect & Follow</h4>
+  	<h3>Connect & Follow</h3>
   	<ul id="contact-icons">
 			<li>
-				<a class="image-wrapper" href="/atom">
+				<a class="image-wrapper" href="/atom.xml">
 					<img src="/assets/images/rss.png" alt="icon" height="24" width="24">
 				</a>
-				Subscribe to my <a href="/atom">posts</a>
+				Subscribe to my <a href="/atom.xml">posts</a>
 			</li>
 			<li>
 				<a class="image-wrapper" href="mailto:john@blyberg.net">
@@ -39,10 +39,19 @@ title: Your New Jekyll Site
 				</a>
 				Github <a href="https://github.com/jblyberg">github.com/jblyberg</a>
 			</li>
-			</ul>
+		</ul>
+		<h3>Search this site</h3>
+		<form action="http://www.google.com/search" id="search" method="get">
+      <input name="sitesearch" type="hidden" value="jfb.io" />
+      <span class="search-icon js-search-action">
+      <i class="icon-search"></i>
+      </span>
+      <input type="text" name="q" class="search-query" placeholder="Search">
+      <input type="submit" class="btn btn-primary btn-xs" value="Go!">
+    </form>
   </div>
 	<div class="col-md-6">
-		  <h4>Archive</h4>
+		  <h3>Archive</h3>
 		  <ul id="posts">
 		    {% for post in site.posts %}
 		      <li><span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ post.url }}">{{ post.title }}</a></li>

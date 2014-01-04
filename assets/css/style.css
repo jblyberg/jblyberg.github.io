@@ -16,12 +16,26 @@ body {
   margin-top: 30px;
 }
 
+.frontpage-content h3 {
+	font-family: 'Englebert', sans-serif;
+	color: #B9C967;
+	margin-bottom: 5;
+}
+
 .lead {
 	text-align: left;
 }
 
 .post {
-  margin: 25px 0px 75px;
+  margin: 25px 0px 30px;
+}
+
+.post hr {
+	width: 90%;
+}
+
+.social-buttons {
+	margin: 15px 0px 15px;
 }
 
 ul#contact-icons, ul#posts {
@@ -39,6 +53,11 @@ ul#contact-icons img {
 
 	margin: 0 10px 0 0px;
 	top: 7px;
+}
+
+#disqus_thread {
+	width: 90%;
+  margin: 0px 30px 0px 30px;
 }
 
 pre {
