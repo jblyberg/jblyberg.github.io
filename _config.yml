@@ -1,6 +1,5 @@
 name: jfb.io
 
-markdown: redcarpet
 highlighter: true
 timezone: America/New_York
 encoding: UTF-8

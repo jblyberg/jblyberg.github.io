@@ -50,6 +50,8 @@ published: true
 
     var map = new google.maps.Map(document.getElementById('map'), {
       zoom: 7,
+      fullscreenControl: true,
+      scaleControl: true,
       center: new google.maps.LatLng(57.088515,-66.049805),
       mapTypeId: google.maps.MapTypeId.TERRAIN
     });

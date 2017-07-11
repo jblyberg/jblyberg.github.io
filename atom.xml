@@ -1,9 +1,9 @@
 ---
-layout: nil
+layout:
 ---
 <?xml version="1.0"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
- 
+
   <title>jfb.io</title>
   <link href="http://jfb.io/"/>
   <link type="application/atom+xml" rel="self" href="http://jfb.io/atom.xml"/>
@@ -28,5 +28,5 @@ layout: nil
     <content type="html">{{ post.content | xml_escape }}</content>
   </entry>
   {% endfor %}
- 
+
 </feed>
